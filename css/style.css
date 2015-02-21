@@ -1,45 +1,55 @@
-/* ============================================================
-  SECTIONS
-============================================================ */
-section.module:last-child {
-  margin-bottom: 0;
-}
-section.module h2 {
-  margin-bottom: 10px;
-  font-family: "Roboto Slab", serif;
-  font-size: 30px;
-}
 section.module p {
-  margin-bottom: 10px;
-  font-size: 14px;
-  font-weight: 300;
-
-  padding-right: 50px;
-  padding-left: 50px;
-}
-section.module p:last-child {
-  margin-bottom: 0;
-}
-section.module.content {
-  padding: 40px 0;
+margin-bottom: 10px;
+font-size: 14px;
+font-weight: 300;
+padding-right: 50px;
+padding-left: 50px;
 }
 
 section.module h1 {
-  
-  padding-right: 50px;
-  padding-left: 50px;
+padding-right: 50px;
+padding-left: 50px;
 }
 
-section.module.parallax {
-  padding: 100px;
-  background-position: 50% 50%;
-  background-repeat: repeat;
-  background-attachment: fixed;
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
+section.module h2 {
+margin-bottom: 10px;
+font-family: "Roboto Slab", serif;
+font-size: 30px;
 }
+
+section.module:last-child {
+margin-bottom: 0;
+}
+
+section.module p:last-child {
+margin-bottom: 0;
+}
+
+section.module.content {
+padding: 40px;
+}
+
+.row1 {
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-frame,.avatar-frame img{
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50%; /* Saf3+, Chrome */
+  border-radius: 50%; /* Opera 10.5, IE 9 */
+  /*-moz-border-radius: 30px;  Disabled for FF1+ */
+  }
+
+/* Parallax Modules */
+
+section.module.parallax {
+padding: 100px;
+background-position: 50% 50%;
+background-repeat: repeat;
+background-attachment: fixed;
+} /* for tiled backgrounds */
 
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.9);
@@ -72,6 +82,7 @@ section.module.parallax-3 {
     font-size: 60px;
   }
 }
+
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 100px;
@@ -81,7 +92,4 @@ section.module.parallax-3 {
 .media {
   padding-right: 50px;
   padding-left: 50px;
-}
-
-.h1 {
 }
