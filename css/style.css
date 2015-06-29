@@ -70,6 +70,9 @@ section.module.parallax-2 {
 section.module.parallax-3 {
   background-image: url("../img/bg/3.png");
 }
+section.module.parallax-0 {
+  background-image: url("../img/bg/6.png");
+}
 
 @media all and (min-width: 600px) {
   section.module h2 {
