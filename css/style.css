@@ -29,10 +29,19 @@ section.module.content {
 padding: 40px;
 }
 
-.row1 {
-  width: 100%;
-  height: 100%;
+section.module.header {
+  width: 100vh;
+  height: 100vh;
+  position: relative;               /* 2 */
+  top: 50%;                         /* 3 */
+  transform: translate(20%, 20%) }   /* 4 */
+
 }
+
+.row1 {
+/*  width: 100vh;
+  height: 100vh;
+*/}
 
 .avatar-frame,.avatar-frame img{
   width: 50%;
@@ -49,6 +58,8 @@ padding: 100px;
 background-position: 50% 50%;
 background-repeat: repeat;
 background-attachment: fixed;
+width: 100%;
+height: 100%;
 } /* for tiled backgrounds */
 
 section.module.parallax h1 {
