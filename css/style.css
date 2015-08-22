@@ -82,7 +82,7 @@ div#panelBodyTxt {
   /* ...and now for the proper property */
   transition:.5s;
 }
-div#panelBodyTxt:hover { opacity:0.85; }
+div#panelBodyTxt:hover { opacity:0.9; }
 
 div#panelHead {
   background-color: #000;
