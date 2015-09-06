@@ -24,7 +24,7 @@ var substringMatcher = function(strs) {
 
 
 function initialize() {
-    var url = 'http://45.79.141.203:5000/get_names';
+    var url = 'https://45.79.141.203:5000/get_names';
     $.ajax({
         url: url,
         success: function(data) {
