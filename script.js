@@ -67,7 +67,7 @@ function initialize() {
 
 $(function updateGraph(nameX) {
     var name = nameX.toString();
-    $.getJSON('http://www.highcharts.com/samples/data/jsonp.php?filename=usdeur.json&callback=?', function (data) {
+    $.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=usdeur.json&callback=?', function (data) {
 
         $('#container').highcharts({
             chart: {
