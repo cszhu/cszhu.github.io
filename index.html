@@ -1,213 +1,187 @@
 <!DOCTYPE html>
-
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+ 
+    <title>Christina Zhu</title>
 
-<head>
-  <!-- title and meta -->
-  <meta charset="utf-8">
-  <meta content="width=device-width,initial-scale=1.0" name="viewport">
-  <meta content="description" name="Christina's page!">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-  <title>christina zhu</title>
-  <link rel="shortcut icon" href="favicon.jpg" type="image/jpg">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.jpg">
 
-  <!-- css -->
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
-  <!--custom js-->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
-
-
-  <!-- icons -->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-</head>
-
-<body>
-  <div class="wrapper">
-    <main>
-      <section class="module header">
-        <div class="indexPageInfo"> <center>
-          <div class="avatar-frame"><img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/11377291_10206783920659536_782134966661185120_n.jpg?oh=0ef48d4b1b2f103d41ea5c2bdcf506b2&oe=567EDD47"></div>
-          <h2>CHRISTINA</h2>
-          <p>Hi! I'm a web developer that goes to UC Davis. <br> Catch me at: <a href="http://www.calhacks.io/">Calhacks</a></p>
-          <div class="container2">
-          <button class="link" onclick="scroll2Abt();">about</button>
-          <button class="link" onclick="scroll2Work();">work</button>
-          <button class="link" onclick="scroll2Contact();">contact</button>
-        </div>
-        </center>
-      </div>
-    </section>
+    <script src="assets/js/chart.js"></script>
 
 
-    <section class="module parallax parallax-0" id="abtHeader">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <h1>about</h1>  
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><h1><b>CSZHU</b></h1></i></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#contact">Contact</a></li>
+            <li class="active"><a href="Resume_ChristinaZhu.pdf">Resume</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-    </section>
-    <section class="module content">
-      <div class="container">
+    </div>
 
-          <div class="linkCol">
-            <button class="link" onclick="whoAmI();">WHO AM I?</button>
-            <button class="link" onclick="involvement();">INVOLVEMENT</button>
-            <button class="link" onclick="languages();">LANGUAGES & TOOLS</button>
-            <button class="link" onclick="window.open('Resume_ChristinaZhu.pdf')">RESUME</button>
-          </div> <!--linkcol-->
-        <br>
 
-          <div class="aboutText">
-            <p id="aboutText">I'm Christina! I'm from the Bay Area and I'm studying Computer Science at UC Davis. I love sleeping, aesthetically pleasing designs, and birbs. You can find me planning my next hackathon and finding more stickers to put on my new Macbook. <br>
-              I'm also minoring in Managerial Economics, because it turns out I have a passion for business too. Drop me a line and let's talk!</p>
-            </div>
+	<div id="hello">
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-lg-8 col-lg-offset-2 centered">
+	    			<h1>Christina Zhu</h1>
+	    			<h2>Developer & designer</h2>
+	    		</div><!-- /col-lg-8 -->
+	    	</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /hello -->
+	
+	<div id="green">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 centered">
+					<img id="avatar" style="border-radius:50%; width:20vw; height: auto;" src="https://pbs.twimg.com/profile_images/651896904746274816/k6NfizEq.jpg" alt="">
+				</div>
+				
+				<div class="col-lg-7 centered">
+					<h3><b>WHO IS THIS?</b></h3>
+					<p>I'm <b>Christina</b>! I'm a 3rd year Computer Science major at UC Davis. I'm currently looking for <b>an internship for Summer 2016</b>. You can find me planning my next hackathon and finding more stickers to put on my Macbook. Let's chat!</div>
+			</div>
+		</div>
+	</div>
+	
 
-        </div>
-      </section>
+	<div id="experience">
+		<h2 id="exptitle">EXPERIENCE</h2>
 
-      <section class="module parallax parallax-1" id="workHeader">
-        <div class="container">
-          <h1>work</h1>
-        </div>
-      </section>
+	<div class="container2">
+			<div class="tile2">
+				<a href="http://www.monetate.com">
+					<div class="tile2img"><img class="exp" src="assets/img/monetate.png" alt=""></div>
+				<p> Software Engineer Intern<br> Monetate</p>
+				</a>
+			</div>
+			<div class="tile2">
+				<a href="http://pennappsfellows.com">
+					<div class="tile2img"><img class="exp" src="assets/img/pennappsfellows.png" alt=""></div>
+					<p>PennApps Fellow<br>
+						Class of 2015</p>
+				</a>
+			</div>
 
-      <section class="module content">
-        <div class="container">
+			<div class="tile2">
+				<a href="http://girlswhocode.com"><div class="tile2img"><img class="exp" src="assets/img/gwc.jpeg" alt=""></div>
+				<p>Instructor<br>
+					Girls Who Code</p>
+				</a>
+			</div>
+		
+			<div class="tile2">
+				<a href="http://daviscsclub.org/"><div class="tile2img"><img class="exp" src="assets/img/daviscsclub2.jpg" alt=""></div>
+				<p>Marketing Director<br>
+					Davis CS Club</p>
+				</a>
+			</div>
+			<div class="tile2">
+				<a href="http://pennhealthx.com"><div class="tile2img"><img class="exp" src="assets/img/pennhealthx.png" alt=""></div>
+				<p>Teaching Assistant <br> Penn HealthX</p>
+				</a>
+			</div>
+			<div class="tile2">
+				<a href="http://staging.newdayint.com"><div class="tile2img"><img class="exp" src="assets/img/1 2.png" alt=""></div>
+					<p>Web Developer<br>New Day International</p>
+				</a>
+			</div>
+		<!-- </div> -->
+	</div>
+</div>
 
-          <div class="panel panel-default" id="customPanel">
-            <a href="http://www.monetate.com"><div class="panel-heading" id="panelHead">software engineer intern @ monetate</div></a>
-            <div class="panel-body" id="panelBody">
-              <img src="img/monetate.png">  
-              <div id="panelBodyTxt">
-                <b>Jun 2015 - Aug 2015</b><br>
-                • Spent 10 weeks on the Delivery Engineering team as a Javascript intern working with git and Javascript/jQuery<br>
-                • Created custom Javascript elements and script extensions for major e-commerce websites such as Chanel, Vera Bradley, and Nike<br>
-                • Collaborated with other engineers through code reviews and architecture planning meetings.<br>
-              </div>
-            </div>
-          </div>
+	<div id="skills">
+		<div class="container2">
+				<h3 id="exptitle"><b>PROJECTS</b></h3>
 
-          <div class="panel panel-default" id="customPanel">
-            <a href="http://pennappsfellows.com"><div class="panel-heading" id="panelHead">pennapps fellow c/o 2015</div></a>
-            <div class="panel-body" id="panelBody">
-              <img src="img/pennappsfellows.png">
-              <div id="panelBodyTxt">
-                <b>Jun 2015 - Aug 2015</b><br>
-                • One of 14 selected applicants for competitive tech fellowship program<br>
-                • Volunteered in Philadelphia's tech startup scene and attended tech conferences<br>
-                • Paired with Monetate for a 10-week internship with paid housing
-              </div>
-            </div>
-          </div>
+				<div class="tile2">
+					<a href="http://devpost.com/software/nearby-minds"><img class="exp2" src="assets/img/nearby.jpg" alt=""></a>
+				</div>
 
-          <div class="panel panel-default" id="customPanel">
-            <a href="http://daviscsclub.org/"><div class="panel-heading" id="panelHead">marketing director @ davis cs club</div></a>
-            <div class="panel-body" id="panelBody">
-              <img src="img/daviscsclub2.jpg">
-              <div id="panelBodyTxt">
-                <b>Jun 2015 - Present</b><br>
-                • Created custom graphic illustrations and designs for club events using InDesign and Illustrator<br>
-                • Marketed club events to school audience and retained membership. <br>
-                • Oversaw the running of Davis Computer Science club and helped tutor and mentor other computer science students.
-              </div>
-            </div>
-          </div>
+				<div class="tile2">
+					<a href="http://devpost.com/software/friendship-is-magic"><img class="exp2" src="assets/img/friendship.jpg" alt="">
+					</a>
+				</div>
 
-          <div class="panel panel-default" id="customPanel">
-            <a href="http://pennhealthx.com/"><div class="panel-heading" id="panelHead">TA @ penn healthx</div></a>
-            <div class="panel-body" id="panelBody">
-              <img src="img/pennhealthx.png">
-              <div id="panelBodyTxt">
-                <b>Jun 2015 - Aug 2015</b><br>
-                • Volunteered as a Teacher Assistant for a summer Intro to Coding Class for medical students at University of Pennsylvania<br>
-                • Tutored students in HTML/CSS as well as Ruby on Rails <br>
-                • Helped plan curriculum and gave feedback on problem sets
-              </div>
-            </div>
-          </div>
+				<div class="tile2">
+					<a href="http://devpost.com/software/fitfund"><img class="exp2" src="assets/img/pebble.jpg" alt=""></a>
+				</div>
 
-          <div class="panel panel-default" id="customPanel">
-            <a href="http://pennappsfellows.com"><div class="panel-heading" id="panelHead">marketing manager @ unboard</div></a>
-            <div class="panel-body" id="panelBody">
-              <img src="img/unboard.png">
-              <div id="panelBodyTxt">
-                <b>Jan 2015 - May 2015</b><br>
-                • Technically test and provide bug and design feedback on the gaming prototype through Unity<br>
-                • Handled marketing segmentation and opportunity assessment efforts to develop an optimal marketing strategy. <br>
-                • Reviewed and managed the production of marketing content, such as posts, emails, and personal messages
-              </div>
-            </div>
-          </div>
+				<div id="texttile">
+					<p> I go to hackathons a lot. Here are some upcoming ones I'll be attending:</p>
+						<b><a href="http://calhacks.io">Cal Hacks</a>
+						<br>
+						<a href="http://hackingedu.co">HackingEDU</a>
+						<br></b><br>
+					<p>Check out my <a href="http://devpost.com/cszhu"><b>DevPost</b></a>!</p>
+				</div>
+		</div><!-- /container -->
+	</div><!-- /skills -->
+	
+	<section id="contact"></section>
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-7 col-lg-offset-1 mt">
+					<p class="lead">Want to talk about building something cool together? Shoot me an email and let's talk over some coffee.</p>
+				</div>
+				<div class="col-lg-3 mt">
+					<p><button type="button" href="mailto:cszhu@ucdavis.edu"class="btn btn-theme btn-lg">Email Me!</button></p>
+				</div>
+			</div>
+			<br>
+			<div class="row centered">
+					<div id="container" class="col-md-3" >
+						<a href="mailto:cszhu@ucdavis.edu"><i class="fa fa-envelope"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="http://linkedin.com/in/christinaszhu"><i class="fa fa-linkedin"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="http://twitter.com/cszhu"><i class="fa fa-twitter"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="http://github.com/cszhu"><i class="fa fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /social -->
 
-          <div class="panel panel-default" id="customPanel">
-            <a href="https://cru.ucdavis.edu/"><div class="panel-heading" id="panelHead">marketing assistant @ UCD CRU</div></a>
-            <div class="panel-body" id="panelBody">
-              <div id="panelBodyTxt"><b>Nov 2013 - Jan 2015</b><br>
-              • Develop and execute marketing campaigns, design concepts, ideas, and slogans to promote UCD CRU <br>
-              • Analyze and synthesize information to develop comprehensive, effective written content for various marketing materials.<br>
-              • Proofread and content-edit a variety of marketing materials in different mediums</div>
-              <img src="img/cru.png">
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="module parallax parallax-2" id="contactHeader">
-        <div class="container">
-          <h1>contact</h2>
-          </div>
-        </section>
-
-        <section class="module content">
-          <div class="container2">
-            <center><p>Want to grab some brick toast and talk about scifi novels?</p></center><br>
-            <a href="mailto:cszhu@ucdavis.edu"><button class="link">email me!</button></a>
-            <!-- <form class="custom" role="form" action="contact.php" id="contactForm" method="post">
-              <div class="form-group">
-                  <input type="name" id="name" class="form-control" id="inputName" name="name" placeholder="Name">
-              </div>
-              <div class="form-group">
-                  <input type="email" id="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
-              </div>
-              <div class="form-group">
-                  <textarea type="message" id="message" class="form-control" id="inputMsg" name="message" rows="5" placeholder="What's on your mind, friend?"></textarea>
-              </div>
-              <div id="formMessages"></div>
-              <div class="form-group">
-                  <center><button id="submit" name="submit" type="submit" value="Send" class="link">Submit</button></center>
-              </div>
-            </form> -->
-            <br>
-            <div class="container">
-            <div class="bottomButtons">
-              <a href="http://twitter.com/cszhu"><button type="button" class="boxy">
-                <i class="fa fa-twitter fa-lg"></i> 
-              </button></a>
-              <a href="http://www.linkedin.com/in/christinaszhu"><button type="button" class="boxy">
-                <i class="fa fa-linkedin fa-lg"></i> 
-              </button></a>
-              <a href="https://github.com/cszhu"><button type="button" class="boxy">
-                <i class="fa fa-github fa-lg"></i> 
-              </button></a>
-              <a href="https://instagram.com/xtina.zhu/"><button type="button" class="boxy">
-                <i class="fa fa-instagram fa-lg"></i> 
-              </button></a>
-              <a href="https://open.spotify.com/user/1253438384/playlist/741aFb31Otpk9EXqb92Ihw"><button type="button" class="boxy">
-                <i class="fa fa-spotify fa-lg"></i> 
-              </button></a>
-            </div>
-          </div>
-            <br>
-            <p>Made with <span id="stingray"><img src="stingray.png" id="stingrayImg">&hearts;</img></span> by Christina Zhu</p>
-          </div>
-        </section>
-
-      </main><!-- /main -->
-    </div><!-- /#wrapper -->
-
+    <script src="assets/js/bootstrap.js"></script>
   </body>
-  </html>
+</html>
