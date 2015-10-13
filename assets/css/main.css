@@ -241,11 +241,11 @@ a:after {
 /* WRAP SECTIONS */
 
 /* hello */
-#hello {
+#hello {   
 	width: 100%;
 	padding-top: 250px;
 	padding-bottom: 250px;
-	background: url(../img/sloth.jpg);
+	background: url(../img/howls.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:100%;
