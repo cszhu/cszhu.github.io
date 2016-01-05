@@ -15,25 +15,28 @@ body {
 }
 `
 #buttons {
-  width: 500px;
+  width: 400px;
   padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
 #size {
+  width: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
 #color {
+  width: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
 #numero {
+  width: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
