@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 25px;
+}
+
+#test {
+  width: 600px;
+  height: 350px;
+}
+`
+#buttons {
+  width: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#size {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#color {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#numero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn {
+  border: none;
+}

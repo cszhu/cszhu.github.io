@@ -1,0 +1,34 @@
+<head>
+  <title> Firefly.js Live Example </title>
+  <link rel="icon" href="favicon.jpg">
+  <link href="assets/css/firefly.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+  <script src="assets/js/fireflytest.js"></script>
+  <script src="assets/js/firefly-v0.1.js"></script>
+
+  <script> window.onload = function() { firefly("test", 55, "big", "#003399"); }; </script> 
+</head>
+
+<body>
+  <div id="title">firefly.js</div>
+  <div id="buttons"> 
+    <div id="numero">
+      <button type="button" id="more" onclick="number(more)" class="btn btn-secondary btn-lg">More</button>
+      <button type="button" id="less" onclick="number(less)" class="btn btn-secondary btn-lg">Less</button> 
+    </div><br>
+    <div id="color">
+      <button type="button" id="green" onclick="clr(green)" class="btn btn-success btn-lg">Green</button>    
+      <button type="button" id="yellow" onclick="clr(yellow)" class="btn btn-warning btn-lg">Yellow</button> 
+      <button type="button" id="red" onclick="clr(red)" class="btn btn-danger btn-lg">Red</button>
+    </div><br>
+    <div id="size">
+      <button type="button" id="tiny" onclick="sz(tiny)" class="btn btn-primary btn-lg">Tiny</button>    
+      <button type="button" id="small" onclick="sz(small)" class="btn btn-primary btn-lg">Small</button> 
+      <button type="button" id="medium" onclick="sz(medium)" class="btn btn-primary btn-lg">Medium</button>
+      <button type="button" id="big" onclick="sz(big)" class="btn btn-primary btn-lg">Big</button>
+    </div><br>
+  </div>
+  <div id="test"> 
+  </div>
+</body>
