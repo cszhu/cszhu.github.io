@@ -1,6 +1,6 @@
 var size = "big";
 var num = 55;
-var color = "#003399";
+var color = "#FFFFFF";
 
 function sz(y) {
   size = y.id;
@@ -11,6 +11,7 @@ function clr(y) {
   if (y.id == "green") { color = "#009900"; }
     else if (y.id == "yellow") { color = "#eaea17"; }
     else if (y.id == "red") { color = "#ea1717"; }
+    else if (y.id == "white") { color = "#ffffff"; }
 
   firefly("test", num, size, color); 
 };
