@@ -1,8 +1,27 @@
 body {
-  display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+  -webkit-box-flex-direction: column;
+  -moz-box-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+
+  -webkit-box-justify-content: center;
+  -moz-box-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
   justify-content: center;
-  padding-left: 100px;
+
+  -webkit-box-align-items: center;
+  -moz-box-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
 }
 
 div {
@@ -21,7 +40,16 @@ a:visited {
 }
 
 #content {
-  display: flex;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex; 
+
+  -webkit-box-flex-direction: row;
+  -moz-box-flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
 }
 
@@ -44,6 +72,7 @@ a:visited {
 
 #text {
   padding: 10px;
+  max-width:400px;
 }
 
 .icon {
@@ -59,16 +88,10 @@ a:visited {
   #photo {
     display: none;
   }
-  body {
-    padding-left: 0px;
-  }
 }
 
 @media only screen and (min-device-width: 481px)  and (max-device-width: 650px) {
   #photo {
     display: none;
-  }
-  body {
-    padding-left: 0px;
   }
 }
