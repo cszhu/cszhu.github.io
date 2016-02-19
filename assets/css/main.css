@@ -72,12 +72,16 @@ a:visited {
 
 #text {
   padding: 10px;
-  max-width:400px;
+  max-width:450px;
 }
 
 .icon {
+  opacity: 0.75;
   padding: 5px;
   color: black;
+}
+.icon:hover {
+  opacity: 1;
 }
 
 .sub {
