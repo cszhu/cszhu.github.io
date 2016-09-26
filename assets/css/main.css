@@ -1,4 +1,6 @@
 body {
+  padding-top: 30px;
+
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -78,7 +80,7 @@ h3 {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  
+
   -webkit-box-flex-align-items: center;
   -moz-box-flex-align-items: center;
   -webkit-flex-align-items: center;
@@ -86,6 +88,8 @@ h3 {
   align-items: center;
 
   max-width: 500px;
+
+  padding-bottom: 10px;
 
 }
 
