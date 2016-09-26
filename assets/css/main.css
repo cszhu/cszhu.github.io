@@ -22,24 +22,45 @@ body {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
+
+  /*background-image: url('https://s-media-cache-ak0.pinimg.com/originals/f3/d8/aa/f3d8aa396f614dc0878e324f27fcff7c.jpg');*/
 }
 
-div {
-  margin: 5px;
+#icons {
+  padding-left: 50px;
+  padding-right: 50px;
+
+  -webkit-box-justify-content: space-around;
+  -moz-box-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
 a {
-  color: #3f9396;
+  color: #1C77C3;
 }
 
 a:hover {
-  color: black;
+  color: black; 
+  text-decoration: none;
 }
 
 a:visited {
 }
 
-#content {
+h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.content {
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -51,33 +72,63 @@ a:visited {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+
+  -webkit-box-justify-content: center;
+  -moz-box-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  
+  -webkit-box-flex-align-items: center;
+  -moz-box-flex-align-items: center;
+  -webkit-flex-align-items: center;
+  -ms-flex-align-items: center;
+  align-items: center;
+
+  max-width: 500px;
+
+}
+
+#section0 {
+  border: 2px #BF1A2F solid;
+  padding: 10px;
+}
+
+#section {
+  border: 2px #FFC522 solid;
+  padding: 10px;
+}
+
+#section2 {
+  border: 2px #018E42 solid;
+  padding: 10px;
+}
+
+#section3 {
+  border: 2px #454E9E solid;
+  padding: 10px;
 }
 
 #title {
   font-size: 35px;
   font-family: Montserrat;
   padding: 10px;
-
 }
 
 #pic {
-  width: 350px;
+  width: 100px;
+  border-radius: 50%;
   height: auto;
-  opacity: 0.85;
-}
-
-#pic:hover {
   opacity: 1;
 }
 
 #text {
   padding: 10px;
-  max-width:450px;
+  max-width: 500px;
 }
 
 .icon {
   opacity: 0.75;
-  padding: 5px;
   color: black;
 }
 .icon:hover {
@@ -91,6 +142,10 @@ a:visited {
 @media only screen and (min-device-width: 320px)  and (max-device-width: 480px) {
   #photo {
     display: none;
+  }
+
+  #text {
+    max-width: 450px;
   }
 }
 
