@@ -28,6 +28,32 @@ body {
   /*background-image: url('https://s-media-cache-ak0.pinimg.com/originals/f3/d8/aa/f3d8aa396f614dc0878e324f27fcff7c.jpg');*/
 }
 
+#column {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+  -webkit-box-flex-direction: column;
+  -moz-box-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-box-justify-content: center;
+  -moz-box-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+
+  -webkit-box-align-items: center;
+  -moz-box-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
 #icons {
   padding-left: 50px;
   padding-right: 50px;
@@ -116,7 +142,8 @@ h3 {
 #title {
   font-size: 35px;
   font-family: Montserrat;
-  padding: 10px;
+  margin-left: 15px;
+  padding-right: 10px;
 }
 
 #pic {
@@ -135,8 +162,29 @@ h3 {
   opacity: 0.75;
   color: black;
 }
+
 .icon:hover {
   opacity: 1;
+}
+
+.icon.red {
+  color: #BF1A2F;
+}
+
+.icon.yellow {
+  color: #FFC522;
+}
+
+.icon.green {
+  color: #018E42;
+}
+
+.icon.blue {
+  color: #454E9E;
+}
+
+.icon.purple {
+  color: #5B326B;
 }
 
 .sub {
