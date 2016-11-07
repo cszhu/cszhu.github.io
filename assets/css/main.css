@@ -172,7 +172,7 @@ h3 {
 }
 
 #text {
-  padding: 10px;
+  margin: 10px;
   max-width: 500px;
 }
 
@@ -348,7 +348,6 @@ h3 {
 }
 
 #nav {
-  width: 480px;
   margin: 0px !important;
   padding: 0px;
 }
@@ -402,12 +401,18 @@ h3 {
   }
 
   #text {
-    max-width: 450px;
+    max-width: 445px;
   }
+
 }
 
-@media only screen and (min-device-width: 481px)  and (max-device-width: 650px) {
+@media only screen and (min-device-width: 375px)  and (max-device-width: 650px) {
   #photo {
     display: none;
   }
+
+  #text {
+    max-width: 445px;
+  }
+
 }
