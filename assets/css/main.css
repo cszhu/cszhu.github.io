@@ -12,13 +12,14 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: white;
+  height: 100%;
+
 }
 
 .container {
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   height: 100vh;
 }
 
@@ -107,16 +108,31 @@ body {
   .item img {
     max-width: 200px !important;
   }
+
+  p {
+    font-size: 13px;
+  }
+
+  ul {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (min-device-width: 375px)  and (max-device-width: 650px) {
   .item {
     max-width: 300px !important;
-    height: auto;
   }
 
   .item img {
     max-width: 220px !important;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  ul {
+    font-size: 13px;
   }
 
   .container {
