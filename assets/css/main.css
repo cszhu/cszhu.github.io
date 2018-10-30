@@ -32,17 +32,16 @@ body {
   justify-content: center;
   align-items: center;
 
-  height:380px;
 }
 
 .item.left {
   max-width: 250px;
   padding: 20px;
+  height:380px;
 }
 
 .item.right {
   max-width: 800px;
-  overflow: scroll;
   padding: 20px;
 }
 
