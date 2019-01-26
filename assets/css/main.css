@@ -12,12 +12,27 @@ body {
   background-size: cover;
   background-color: white;
   height: 100%;
-
 }
 
 #avatar {
   border-radius: 50%;
 }
+
+audio {
+    width: 200px;
+    height: 40px;
+    margin: 8px;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+    -moz-border-radius:25px ;
+    -webkit-border-radius:25px ;
+    border-radius:25px ;
+    margin-top: 8px;
+    padding: 5px;
+}
+
 
 .container {
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
@@ -41,7 +56,6 @@ body {
 .item.left {
   max-width: 250px;
   padding: 20px;
-  height:380px;
 }
 
 .item.right {
