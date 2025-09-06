@@ -1,0 +1,99 @@
+{
+  "personal": {
+    "name": "Christina Zhu",
+    "title": "Software Engineer & Developer Advocate",
+    "bio": "Hi, I'm Christina! I'm a software engineer, developer advocate, and tech enthusiast with interests ranging from gaming and business to design. I have over 8 years of experience creating and enhancing developer platforms and communities.<br><br>Currently, I'm a Developer Advocate at Anyscale, where I focus on building cool stuff to support the Ray open source community. My work sits at the intersection of engineering and community, building the behind-the-scenes systems that make open source contribution smoother and more accessible.<br><br>My career spans both engineering and developer relations roles across companies like Square, Amazon, Retool, and Visier. I've built scalable software systems, led developer community growth, created technical content and documentation, and spoken at conferences about API development and best practices. This SWE and DevRel background gives me a unique perspective on both the technical and community sides of developer experience.",
+    "passions": [
+      "Developer Relations",
+      "Software Development",
+      "Technical Writing",
+      "Web Development",
+      "JavaScript"
+    ],
+    "contact": "Hope to work with you soon!",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "http://twitter.com/cszhu",
+        "icon": "fab fa-twitter",
+        "color": "#ff6961"
+      },
+      {
+        "name": "GitHub",
+        "url": "http://github.com/cszhu",
+        "icon": "fab fa-github",
+        "color": "#fdfd96"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "http://linkedin.com/in/christinaszhu",
+        "icon": "fab fa-linkedin",
+        "color": "#77dd77"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:zhu.s.christina@gmail.com",
+        "icon": "fas fa-envelope",
+        "color": "#aec6cf"
+      },
+      {
+        "name": "BlueSky",
+        "url": "https://bsky.app/profile/did:plc:q3jjsliaajic7qbppxivowjh",
+        "icon": "fab fa-bluesky",
+        "color": "#b39eb5"
+      }
+    ]
+  },
+  "speaking": [
+    {
+      "title": "Unlocking the Potential of People Analytics with Data",
+      "event": "ODSC West 2024",
+      "date": "Oct 2024"
+    },
+    {
+      "title": "ES13 and Beyond",
+      "event": "SeattleJS",
+      "date": "Aug 2023"
+    },
+    {
+      "title": "DeveloperDay at Retool",
+      "event": "Retool",
+      "date": "Jun 2023"
+    },
+    {
+      "title": "Workflows & Webhooks",
+      "event": "PyCon",
+      "date": "May 2019"
+    },
+    {
+      "title": "Javascript, Tech, and Social Good",
+      "event": "SeaGL",
+      "date": "Nov 2018"
+    },
+    {
+      "title": "Introduction to Blockchain & Cryptokitties",
+      "event": "WeRISE Tech",
+      "date": "Jun 2018"
+    },
+    {
+      "title": "The Intersection of Tech x Social Good",
+      "event": "Index SF",
+      "date": "Feb 2018"
+    },
+    {
+      "title": "Diversity In Tech Panelist",
+      "event": "CalHacks",
+      "date": "Nov 2016"
+    },
+    {
+      "title": "Introduction to Web Development",
+      "event": "HackDavis",
+      "date": "Nov 2016"
+    },
+    {
+      "title": "How To Publish Your First NPM Module",
+      "event": "Coding Dojo",
+      "date": "Apr 2016"
+    }
+  ]
+}
