@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Unlocking the Potential of People Analytics with Data",
+    "event": "ODSC West 2024",
+    "date": "Oct 2024"
+  },
+  {
+    "title": "ES13 and Beyond",
+    "event": "SeattleJS",
+    "date": "Aug 2023"
+  },
+  {
+    "title": "DeveloperDay at Retool",
+    "event": "Retool",
+    "date": "Jun 2023"
+  },
+  {
+    "title": "Workflows & Webhooks",
+    "event": "PyCon",
+    "date": "May 2019"
+  },
+  {
+    "title": "Javascript, Tech, and Social Good",
+    "event": "SeaGL",
+    "date": "Nov 2018"
+  },
+  {
+    "title": "Introduction to Blockchain & Cryptokitties",
+    "event": "WeRISE Tech",
+    "date": "Jun 2018"
+  },
+  {
+    "title": "The Intersection of Tech x Social Good",
+    "event": "Index SF",
+    "date": "Feb 2018"
+  },
+  {
+    "title": "Diversity In Tech Panelist",
+    "event": "CalHacks",
+    "date": "Nov 2016"
+  },
+  {
+    "title": "Introduction to Web Development",
+    "event": "HackDavis",
+    "date": "Nov 2016"
+  },
+  {
+    "title": "How To Publish Your First NPM Module",
+    "event": "Coding Dojo",
+    "date": "Apr 2016"
+  }
+]

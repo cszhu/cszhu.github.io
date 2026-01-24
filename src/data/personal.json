@@ -1,0 +1,45 @@
+{
+  "name": "Christina Zhu",
+  "title": "Software Engineer & Developer Advocate",
+  "bio": "Hi, I'm Christina! I'm a software engineer, developer advocate, and tech enthusiast with interests ranging from gaming and business to design. I have over 8 years of experience creating and enhancing developer platforms and communities.\n\nCurrently, I'm a Developer Advocate at Anyscale, where I focus on building cool stuff to support the Ray open source community. My work sits at the intersection of engineering and community, building the behind-the-scenes systems that make open source contribution smoother and more accessible.\n\nMy career spans both engineering and developer relations roles across companies like Square, Amazon, Retool, and Visier. I've built scalable software systems, led developer community growth, created technical content and documentation, and spoken at conferences about API development and best practices. This SWE and DevRel background gives me a unique perspective on both the technical and community sides of developer experience.",
+  "passions": [
+    "Developer Relations",
+    "Software Development",
+    "Technical Writing",
+    "Web Development",
+    "JavaScript"
+  ],
+  "contact": "Hope to work with you soon!",
+  "social": [
+    {
+      "name": "Twitter",
+      "url": "http://twitter.com/cszhu",
+      "icon": "fab fa-twitter",
+      "color": "#ff6961"
+    },
+    {
+      "name": "GitHub",
+      "url": "http://github.com/cszhu",
+      "icon": "fab fa-github",
+      "color": "#fdfd96"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "http://linkedin.com/in/christinaszhu",
+      "icon": "fab fa-linkedin",
+      "color": "#77dd77"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:zhu.s.christina@gmail.com",
+      "icon": "fas fa-envelope",
+      "color": "#aec6cf"
+    },
+    {
+      "name": "BlueSky",
+      "url": "https://bsky.app/profile/cszhu.dev",
+      "icon": "fab fa-bluesky",
+      "color": "#b39eb5"
+    }
+  ]
+}
