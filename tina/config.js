@@ -1,7 +1,7 @@
 import { defineConfig } from "tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
-const branch = process.env.HEAD || "main";
+const branch = process.env.HEAD ? process.env.HEAD.replace("refs/heads/", "") : "master";
 
 export default defineConfig({
 	branch,

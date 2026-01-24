@@ -22,20 +22,19 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: "20"
+          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build with Astro
-        run: npx astro build
+      - name: Build with TinaCMS and Astro
+        run: npm run build
         env:
-          # TinaCMS credentials are optional for build
-          # If you want to use TinaCMS build, add secrets:
-          # TINACLIENTID: ${{ secrets.TINACLIENTID }}
-          # TINATOKEN: ${{ secrets.TINATOKEN }}
-          # TINASEARCH: ${{ secrets.TINASEARCH }}
+          TINACLIENTID: ${{ secrets.TINACLIENTID }}
+          TINATOKEN: ${{ secrets.TINATOKEN }}
+          TINASEARCH: ${{ secrets.TINASEARCH }}
+          HEAD: refs/heads/master
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
