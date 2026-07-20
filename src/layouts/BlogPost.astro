@@ -14,6 +14,9 @@ let {
 	content: { title, description, added, updated, tags, heroImage },
 } = Astro.props;
 
+const publishedTime = added ? new Date(added).toISOString() : undefined;
+const updatedTime = updated ? new Date(updated).toISOString() : undefined;
+
 added = new Date(added).toLocaleDateString(
 	"en-us",
 	{
@@ -36,13 +39,20 @@ if (updated) {
 ---
 
 <html lang="en-us">
-	<BaseHead title={title} description={description} />
+	<BaseHead
+		title={title}
+		description={description}
+		type="article"
+		publishedTime={publishedTime}
+		updatedTime={updatedTime}
+		image={heroImage}
+	/>
 
 	<body>
 		<Header />
 		<main>
 			<article>
-				{heroImage && <img width={720} height={360} src={heroImage} alt="" />}
+				{heroImage && <img class="hero-image" src={heroImage} alt={title} />}
 				<h1 class="article-title">{title}</h1>
 				{updated ?
 					<span><time>{added}</time>, last updated on <time>{updated}</time></span>

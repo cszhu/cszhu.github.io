@@ -19,11 +19,10 @@ const { social } = personalData;
 </header>
 <nav>
 	<HeaderLink href="/">home</HeaderLink>
-	<HeaderLink href="/about">about</HeaderLink>
 	<HeaderLink href="/posts">blog</HeaderLink>
 	{
 		social
-			.filter((link) => link.name !== "Email" && link.name !== "Twitter")
+			.filter((link) => link.name !== "Email")
 			.map((link) => (
 				<HeaderLink href={link.url} target="_blank" rel="noopener noreferrer">
 					{link.name.toLowerCase()}

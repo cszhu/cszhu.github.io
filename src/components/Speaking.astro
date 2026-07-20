@@ -2,32 +2,26 @@
 import speakingData from "../data/speaking.json";
 ---
 
-<section class="speaking-section">
-	<h2>Speaking</h2>
-	<ul class="speaking-list">
-		{
-			speakingData.map((talk) => (
-				<li>
-					<strong>{talk.title}</strong> - {talk.event} ({talk.date})
-				</li>
-			))
-		}
-	</ul>
-</section>
+<ul class="speaking-list">
+	{
+		speakingData.map((talk) => (
+			<li>
+				<strong>{talk.title}</strong> - {talk.event} ({talk.date})
+			</li>
+		))
+	}
+</ul>
 
 <style>
-	.speaking-section {
-		margin: 2rem 0;
-	}
-
 	.speaking-list {
 		list-style: none;
 		padding: 0;
+		margin: 1rem 0 0 0;
 	}
 
 	.speaking-list li {
 		margin: 0.75rem 0;
 		padding-left: 1rem;
-		border-left: 3px solid var(--accent-color, #666);
+		border-left: 3px solid var(--gray, #666);
 	}
 </style>

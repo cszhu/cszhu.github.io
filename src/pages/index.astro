@@ -5,6 +5,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import HomePosts from "../components/HomePosts.astro";
 import AboutSummary from "../components/AboutSummary.astro";
+import Speaking from "../components/Speaking.astro";
 import ColorScript from "../components/ColorScript.astro";
 import Tags from "../components/Tags.astro";
 import { title, subtitle } from "../settings/settings.json"
@@ -24,6 +25,12 @@ const tags = getTags(posts);
 				<AboutSummary />
 			</article>
 
+			<br />
+
+			<details class="speaking-details">
+				<summary>Selected talks</summary>
+				<Speaking />
+			</details>
 			<br />
 
 			<h3>Recent blog posts</h3>
