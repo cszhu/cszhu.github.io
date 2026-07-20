@@ -30,12 +30,6 @@
       "color": "#77dd77"
     },
     {
-      "name": "Email",
-      "url": "mailto:zhu.s.christina@gmail.com",
-      "icon": "fas fa-envelope",
-      "color": "#aec6cf"
-    },
-    {
       "name": "BlueSky",
       "url": "https://bsky.app/profile/cszhu.dev",
       "icon": "fab fa-bluesky",

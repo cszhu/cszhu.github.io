@@ -1,5 +1,6 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
+import Icon from "./Icon.astro";
 import { title, subtitle } from "../settings/settings.json"
 import personalData from "../data/personal.json";
 
@@ -8,26 +9,31 @@ const { social } = personalData;
 
 <header>
 	<div class="header-section">
-		<div class="header-frame">
+		<a href="/" class="header-frame" aria-label="Go to homepage">
 			<div class="header-text">
 				<h1>{title}</h1>
 				<h2>{subtitle}</h2>
 			</div>
 			<img src="https://avatars.githubusercontent.com/u/8116601?v=4" alt="Christina Zhu" class="avatar" />
-		</div>
+		</a>
 	</div>
 </header>
 <nav>
 	<HeaderLink href="/">home</HeaderLink>
 	<HeaderLink href="/posts">blog</HeaderLink>
 	{
-		social
-			.filter((link) => link.name !== "Email")
-			.map((link) => (
-				<HeaderLink href={link.url} target="_blank" rel="noopener noreferrer">
-					{link.name.toLowerCase()}
-				</HeaderLink>
-			))
+		social.map((link) => (
+			<HeaderLink
+				href={link.url}
+				target="_blank"
+				rel="noopener noreferrer"
+				class="social-link"
+				aria-label={link.name}
+				title={link.name}
+			>
+				<Icon name={link.name} />
+			</HeaderLink>
+		))
 	}
 </nav>
 <style>
@@ -40,6 +46,11 @@ const { social } = personalData;
 		justify-content: space-between;
 		gap: 2rem;
 		flex-wrap: wrap;
+		text-decoration: none;
+		color: inherit;
+	}
+	.header-frame:hover {
+		text-decoration: none;
 	}
 	.header-text {
 		flex: 1;
