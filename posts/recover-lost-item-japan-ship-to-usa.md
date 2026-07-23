@@ -30,7 +30,7 @@ The shortage had clearly reached them too, because they were limiting purchases 
 	<figcaption>Ippodo's matcha menu in fall 2025.</figcaption>
 </figure>
 
-That feeling did not last.
+Unfortunately, that feeling did not last.
 
 ## Realizing I'd lost it
 
@@ -42,13 +42,13 @@ It took me a minute to retrace my steps, and then I remembered I'd left the bag 
 
 Still, I figured Japan must have some kind of system for this. So I started searching for how to recover a lost item in Japan and ship it home.
 
-There is basically nothing helpful if you're a non-Japanese speaker sitting on the other side of the world. I found a few forum posts from other tourists, most of which ended with some version of "yeah, never got it back." I also found a couple of personal-concierge type services, but they gave off a weird vibe — pay a stranger, no clear process, no real guarantee you'd get anything. I didn't love the idea of losing money _and_ the matcha.
+There is basically nothing helpful if you're a non-Japanese speaker sitting on the other side of the world. I found a few forum posts from other tourists, most of which ended with some version of "yeah, never got it back." I also found a couple of personal-concierge type services, but they gave off a weird vibe: pay a stranger, no clear process, no real guarantee you'd get anything. I didn't love the idea of losing money _and_ the matcha.
 
 At this point I'd mostly made peace with the fact that the matcha was gone.
 
 ## Japan being Japan
 
-Here's where it turned around. My boyfriend has a friend who was living in Tokyo and learning Japanese, so we asked if he'd be willing to call the restaurant and just ask if they still had it. It had been over a week, so I was fully expecting a polite "sorry, no."
+My boyfriend has a friend who was living in Tokyo and learning Japanese, so we asked if he'd be willing to call the restaurant and just ask if they still had it. It had been over a week, so I was fully expecting a polite "sorry, no."
 
 He called, and they still had it! They'd just been holding onto my two cans of matcha this whole time, waiting for someone to come get them.
 
@@ -65,7 +65,7 @@ There was one catch: the restaurant could hold the matcha, but they couldn't shi
 
 I went down a bit of a rabbit hole trying to think of options. Is there a Japanese Craigslist? Do I post on Reddit? Do I just... fly back?
 
-Eventually I found an app called [ANYTIMES](https://www.any-times.com), which is basically Japan's version of TaskRabbit — you post a task and people apply to do it. Cleaning, furniture assembly, errands, that kind of thing. There's almost no English support; the whole app is in Japanese. But between Chrome's auto-translate and using Gemini to help me write messages in Japanese, I figured I could manage. (This is not sponsored in anyway, btw.)
+Eventually I found an app called [ANYTIMES](https://www.any-times.com), which is basically Japan's version of TaskRabbit — you post a task and people apply to do it. Cleaning, furniture assembly, errands, that kind of thing. There's almost no English support; the whole app is in Japanese. But between Chrome's auto-translate and using Gemini to help me write messages in Japanese, I figured I could manage. (This is not sponsored in any way, btw.)
 
 So I made an account and wrote up a listing. Finding the right category was its own little problem, because there is obviously no option for "please go retrieve the matcha I left at a specific sushi restaurant and mail it to America." I filed it under Other > Other and set the price at ¥5,000.
 
@@ -82,7 +82,7 @@ The first person to apply wanted ¥12,000, more than double what I'd posted and 
 
 A few days later I got a second application, from someone I'll call Aki, who wasn't far from Kyoto. She agreed to my original price, and said she could ship as early as Wednesday if that worked. It did.
 
-Our entire back-and-forth happened through the app's chat, with me running everything through Google Translate. Even so, Aki was wonderful. She called the restaurant herself to confirm the matcha was still there, booked a pickup for the next day, and suggested Japan Post international airmail with tracking — reasonably priced, about 6–10 days.
+Our entire back-and-forth happened through the app's chat, with me running everything through Google Translate. Even so, Aki was wonderful. She called the restaurant herself to confirm the matcha was still there, booked a pickup for the next day, and suggested Japan Post international airmail with tracking, reasonably priced at about 6–10 days.
 
 She picked up the matcha on September 9th, sent me photos of both cans safe and sound, and shipped everything the next day with the customs form filled out. She even told me not to worry about paying until the package arrived and I'd confirmed it was fine — a lot of trust for a ¥5,000 task from an internet stranger.
 
